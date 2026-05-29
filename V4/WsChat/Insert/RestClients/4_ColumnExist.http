@@ -1,0 +1,7 @@
+POST http://localhost:9328/V4/WsChat/Insert/ColumnExist
+Content-Type: application/json
+
+{
+  "InOut": "",
+  "data": ""
+}

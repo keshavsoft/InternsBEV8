@@ -1,0 +1,7 @@
+POST http://localhost:9328/V4/WsChat/Insert/PkReturn
+Content-Type: application/json
+
+{
+  "InOut": "",
+  "data": ""
+}

@@ -1,0 +1,359 @@
+<!-- ========================= -->
+<!-- index.html -->
+<!-- ========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KeshavSoft Express API Journey</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            color: #38bdf8;
+            margin-bottom: 20px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #cbd5e1;
+            margin-bottom: 50px;
+            font-size: 18px;
+        }
+
+        .step {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 35px;
+            border-left: 6px solid #38bdf8;
+        }
+
+        .step h2 {
+            color: #facc15;
+            margin-bottom: 20px;
+        }
+
+        .step p {
+            margin-bottom: 18px;
+            line-height: 1.7;
+            color: #cbd5e1;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background: #38bdf8;
+            color: black;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+            transform: scale(1.05);
+        }
+
+        pre {
+            background: #020617;
+            color: #4ade80;
+            padding: 15px;
+            border-radius: 10px;
+            overflow-x: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 14px;
+            line-height: 1.7;
+        }
+
+        code {
+            background: #020617;
+            color: #4ade80;
+            padding: 3px 6px;
+            border-radius: 6px;
+        }
+
+        .final {
+            background: #14532d;
+            border-left: 6px solid #22c55e;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>KeshavSoft Express API Journey</h1>
+
+        <p class="subtitle">
+            From Empty Folder → AddTableName using KeshavSoft VS Code Extensions
+        </p>
+
+        <!-- STEP 1 -->
+
+        <div class="step">
+
+            <h2>STEP 1 — Create Empty Folder</h2>
+
+            <p>Create an empty folder:</p>
+
+            <pre>
+test
+</pre>
+
+            <p>
+                Open the folder in VS Code.
+            </p>
+
+        </div>
+
+        <!-- STEP 2 -->
+
+        <div class="step">
+
+            <h2>STEP 2 — Install Required Extensions</h2>
+
+            <p>
+                Install these VS Code extensions:
+            </p>
+
+            <ul>
+
+                <li>
+                    ks-express-boilerplate
+                </li>
+
+                <li>
+                    express api generator
+                </li>
+
+                <li>
+                    express api sub routes generate
+                </li>
+
+                <li>
+                    express api endpoints generate
+                </li>
+
+            </ul>
+
+            <p>
+                After installing all extensions,
+                restart VS Code once.
+            </p>
+
+        </div>
+
+        <!-- STEP 3 -->
+
+        <div class="step">
+
+            <h2>STEP 3 — Generate Express Boilerplate</h2>
+
+            <p>
+                Right click on empty Explorer area.
+            </p>
+
+            <p>
+                Select:
+            </p>
+
+            <pre>
+Express BoilerPlate with simple
+</pre>
+
+            <p>
+                This generates:
+            </p>
+
+            <pre>
+app.js
+routes.js
+server.js
+Config/
+Public/
+package.json
+</pre>
+
+        </div>
+
+        <!-- STEP 4 -->
+
+        <div class="step">
+
+            <h2>STEP 4 — Generate Api Folder</h2>
+
+            <p>
+                Open:
+            </p>
+
+            <pre>
+app.js
+</pre>
+
+            <p>
+                Click the button below to view the complete process.
+            </p>
+
+            <a href="step1.html" class="btn">
+                Open Step 1
+            </a>
+
+        </div>
+
+        <!-- STEP 5 -->
+
+        <div class="step">
+
+            <h2>STEP 5 — Generate V1 Sub Route</h2>
+
+            <p>
+                Open:
+            </p>
+
+            <pre>
+Api/routes.js
+</pre>
+
+            <p>
+                Click the button below to view the complete process.
+            </p>
+
+            <a href="step2.html" class="btn">
+                Open Step 2
+            </a>
+
+        </div>
+
+        <!-- STEP 6 -->
+
+        <div class="step">
+
+            <h2>STEP 6 — Generate Table Route</h2>
+
+            <p>
+                Open:
+            </p>
+
+            <pre>
+Api/V1/routes.js
+</pre>
+
+            <p>
+                Click the button below to view the complete process.
+            </p>
+
+            <a href="step3.html" class="btn">
+                Open Step 3
+            </a>
+
+        </div>
+
+        <!-- FINAL STRUCTURE -->
+
+        <div class="step final">
+
+            <h2>FINAL GENERATED STRUCTURE</h2>
+
+            <pre>
+Api
+ └── V1
+      └── journals
+           ├── Config
+           ├── end-points.js
+           └── routes.js
+</pre>
+
+        </div>
+
+        <!-- WHAT WE DID -->
+
+        <div class="step">
+
+            <h2>What We Actually Did Using Extensions</h2>
+
+            <ul>
+
+                <li>
+                    Installed all required KeshavSoft VS Code extensions
+                </li>
+
+                <li>
+                    Generated Express boilerplate using
+                    <code>ks-express-boilerplate</code>
+                </li>
+
+                <li>
+                    Generated <code>Api</code> folder using
+                    <code>StartEndPoint</code>
+                </li>
+
+                <li>
+                    Generated <code>V1</code> sub route using
+                    <code>AddSubRoute</code>
+                </li>
+
+                <li>
+                    Generated <code>journals</code> table route using
+                    <code>AddTableName</code>
+                </li>
+
+                <li>
+                    Automatically generated:
+                    <code>Config</code>,
+                    <code>routes.js</code>,
+                    and
+                    <code>end-points.js</code>
+                </li>
+
+                <li>
+                    Created Express API route hierarchy
+                    without manually writing routing boilerplate
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
